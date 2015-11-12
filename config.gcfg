@@ -150,6 +150,10 @@ ShuffleOffAlias = "shuffleoff"
 # DEFAULT VALUE = "electric"
 ElectricAlias = "electric"
 
+# Alias used for BAKING SODA command
+# DEFAULT VALUE = "coco"
+CocoAlias = "coco"
+
 [Permissions]
 
 # Enable admins

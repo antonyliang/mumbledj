@@ -184,6 +184,14 @@ func parseCommand(user *gumble.User, username, command string) {
 		       dj.SendPrivateMessage(user, NO_PERMISSION_MSG)
 		}
 
+	// BAKING SODA command
+	case dj.conf.Aliases.CocoAlias:
+		if dj.HasPermission(username, dj.conf.Permissions.AdminShuffleToggle) {
+		        add(user, "https://www.youtube.com/watch?v=6vYnas6q3Sg")
+		} else {
+		       dj.SendPrivateMessage(user, NO_PERMISSION_MSG)
+		}
+
 	default:
 		dj.SendPrivateMessage(user, COMMAND_DOESNT_EXIST_MSG)
 	}
