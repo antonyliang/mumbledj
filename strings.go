@@ -134,6 +134,7 @@ const HELP_HTML = `<br/>
 	<p><b>!numcached</b></p> - Outputs the number of songs cached on disk.</p>
 	<p><b>!cachesize</b></p> - Outputs the total file size of the cache in MB.</p>
 	<p><b>!kill</b> - Safely cleans the bot environment and disconnects from the server.</p>
+	<p><b>!electric</b> - WE ARE ELECTRIC.</p>
 `
 
 // Message shown to users when they ask for the current volume (volume command without argument)
