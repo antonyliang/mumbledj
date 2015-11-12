@@ -146,6 +146,10 @@ ShuffleOnAlias = "shuffleon"
 # DEFAULT VALUE: "shuffleoff"
 ShuffleOffAlias = "shuffleoff"
 
+# Alias used for WE ARE ELECTRIC command
+# DEFAULT VALUE = "electric"
+ElectricAlias = "electric"
+
 [Permissions]
 
 # Enable admins

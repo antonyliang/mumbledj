@@ -56,6 +56,7 @@ type DjConfig struct {
 		ShuffleAlias           string
 		ShuffleOnAlias         string
 		ShuffleOffAlias        string
+		ElectricAlias	       string
 	}
 	Permissions struct {
 		AdminsEnabled       bool
