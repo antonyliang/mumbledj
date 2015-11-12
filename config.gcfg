@@ -154,7 +154,7 @@ ElectricAlias = "electric"
 
 # Enable admins
 # DEFAULT VALUE: true
-AdminsEnabled = true
+AdminsEnabled = false
 
 # List of admins
 # NOTE: I recommend only giving users admin privileges if they are registered
