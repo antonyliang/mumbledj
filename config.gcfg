@@ -154,6 +154,10 @@ ElectricAlias = "electric"
 # DEFAULT VALUE = "coco"
 CocoAlias = "coco"
 
+# Alias used for BLACK PEOPLE command
+# DEFAULT VALUE = "black"
+CocoAlias = "black"
+
 [Permissions]
 
 # Enable admins

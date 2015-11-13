@@ -65,7 +65,8 @@ Command | Description | Arguments | Admin | Example
 **cachesize** | Outputs the total file size of the cache in MB. | None | Yes | `!cachesize`
 **kill** | Safely cleans the bot environment and disconnects from the server. Please use this command to stop the bot instead of force closing, as the kill command deletes any remaining songs in the `~/.mumbledj/songs` directory. | None | Yes | `!kill`
 **electric** | Plays 'We Are Electric'. This is important. | None | No | `!electric`
-**electric** | Plays 'CoCo'. This is important. | None | No | `!coco`
+**coco** | Plays 'CoCo'. This is important. | None | No | `!coco`
+**black** | Plays 'The Black People Song'. This is important. | None | No | `!black`
 
 
 
