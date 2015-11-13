@@ -156,7 +156,7 @@ CocoAlias = "coco"
 
 # Alias used for BLACK PEOPLE command
 # DEFAULT VALUE = "black"
-CocoAlias = "black"
+BlackAlias = "black"
 
 [Permissions]
 
