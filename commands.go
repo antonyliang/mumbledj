@@ -179,7 +179,7 @@ func parseCommand(user *gumble.User, username, command string) {
 		
 	// WE ARE ELECTRIC command
 	case dj.conf.Aliases.ElectricAlias:
-		if dj.HasPermission(username, dj.conf.Permissions.AdminShuffleToggle) {
+		if dj.HasPermission(username, dj.conf.Permissions.AdminElectric) {
 		        add(user, "https://www.youtube.com/watch?v=nmkVEqAReok")
 		} else {
 		       dj.SendPrivateMessage(user, NO_PERMISSION_MSG)
@@ -187,7 +187,7 @@ func parseCommand(user *gumble.User, username, command string) {
 
 	// BAKING SODA command
 	case dj.conf.Aliases.CocoAlias:
-		if dj.HasPermission(username, dj.conf.Permissions.AdminShuffleToggle) {
+		if dj.HasPermission(username, dj.conf.Permissions.AdminCoco) {
 		        add(user, "https://www.youtube.com/watch?v=6vYnas6q3Sg")
 		} else {
 		       dj.SendPrivateMessage(user, NO_PERMISSION_MSG)
@@ -195,7 +195,7 @@ func parseCommand(user *gumble.User, username, command string) {
 		
 	// BLACK PEOPLE command
 	case dj.conf.Aliases.BlackAlias:
-		if dj.HasPermission(username, dj.conf.Permissions.AdminShuffleToggle) {
+		if dj.HasPermission(username, dj.conf.Permissions.AdminBlack) {
 		        add(user, "https://www.youtube.com/watch?v=XYjqBqrZVTY")
 		} else {
 		       dj.SendPrivateMessage(user, NO_PERMISSION_MSG)

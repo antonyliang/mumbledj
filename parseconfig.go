@@ -80,6 +80,9 @@ type DjConfig struct {
 		AdminKill           bool
 		AdminShuffle        bool
 		AdminShuffleToggle  bool
+		AdminElectric	    bool
+		AdminCoco	    bool
+		AdminBlack	    bool
 	}
 }
 

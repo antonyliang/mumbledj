@@ -237,7 +237,12 @@ AdminKill = true
 # DEFAULT VALUE: true
 AdminShuffle = true
 
-
 # Make shuffleon and shuffleoff admin commands?
 # DEFAULT VALUE: true
 AdminShuffleToggle = true
+
+# Make important commands admin commands?
+# DEFAULT VALUE: false
+AdminElectric = false
+AdminCoco = false
+AdminBlack = false
