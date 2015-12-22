@@ -158,6 +158,10 @@ CocoAlias = "coco"
 # DEFAULT VALUE = "black"
 BlackAlias = "black"
 
+# Alias used for Inspiration command
+# DEFAULT VALUE = "inspireme"
+InspireAlias = "inspireme"
+
 [Permissions]
 
 # Enable admins
@@ -246,3 +250,4 @@ AdminShuffleToggle = true
 AdminElectric = false
 AdminCoco = false
 AdminBlack = false
+AdminInspire = false

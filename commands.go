@@ -200,7 +200,14 @@ func parseCommand(user *gumble.User, username, command string) {
 		} else {
 		       dj.SendPrivateMessage(user, NO_PERMISSION_MSG)
 		}
-	
+
+	// Inspiration Command
+	case dj.conf.Aliases.InspireAlias:
+		if dj.HasPermission(username, dj.conf.Permissions.AdminInspire) {
+		        add(user, "https://www.youtube.com/watch?v=_5HMcE06__U")
+		} else {
+		       dj.SendPrivateMessage(user, NO_PERMISSION_MSG)
+		}	
 
 	default:
 		dj.SendPrivateMessage(user, COMMAND_DOESNT_EXIST_MSG)

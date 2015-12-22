@@ -67,6 +67,7 @@ Command | Description | Arguments | Admin | Example
 **electric** | Plays 'We Are Electric'. This is important. | None | No | `!electric`
 **coco** | Plays 'CoCo'. This is important. | None | No | `!coco`
 **black** | Plays 'The Black People Song'. This is important. | None | No | `!black`
+**inspireme** | Brings inspiriation to all. This is important. | None | No | `!inspireme`
 
 
 

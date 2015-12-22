@@ -59,6 +59,7 @@ type DjConfig struct {
 		ElectricAlias	       string
 		CocoAlias	       string
 		BlackAlias	       string
+		InspireAlias	       string
 	}
 	Permissions struct {
 		AdminsEnabled       bool
@@ -83,6 +84,7 @@ type DjConfig struct {
 		AdminElectric	    bool
 		AdminCoco	    bool
 		AdminBlack	    bool
+		AdminInspire	    bool
 	}
 }
 

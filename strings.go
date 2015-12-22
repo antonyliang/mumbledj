@@ -136,7 +136,8 @@ const HELP_HTML = `<br/>
 	<p><b>!kill</b> - Safely cleans the bot environment and disconnects from the server.</p>
 	<p><b>!electric</b> - WE ARE ELECTRIC.</p>
 	<p><b>!coco</b> - I'm in love with it.</p>
-	<p><b>!black</b> - If you laugh, you're racist.</p>	
+	<p><b>!black</b> - If you laugh, you're racist.</p>
+	<p><b>!inspireme</b> - Instant inspiration.</p>	
 `
 
 // Message shown to users when they ask for the current volume (volume command without argument)
